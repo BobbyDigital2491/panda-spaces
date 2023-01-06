@@ -148,6 +148,6 @@ export const SUBSCRIBED_NOTIFICATIONS = {
 };
 
 export const CREATE_ROOM_DOC_URL =
-  "https://github.com/100mslive/100ms-web/wiki/Creating-and-joining-a-room";
+  "http://localhost:3000/preview/638cf929ea4ced3e8758b790/guest";
 
 export const REMOTE_STOP_SCREENSHARE_TYPE = "REMOTE_STOP_SCREENSHARE";

@@ -29,13 +29,13 @@ function ErrorPage({ error }) {
             direction="column"
             css={{ position: "absolute", size: "100%", top: "33.33%", left: 0 }}
           >
-            <Text variant="h3">Almost There!</Text>
+            <Text variant="h3">Pandamania Spaces</Text>
             <Text
               variant="body1"
               css={{ margin: "1.75rem", textAlign: "center" }}
             >
               {
-                "Hi there! thanks for trying us out, there is not much here yet. Let's get you all setup to join a meeting. "
+                "Welcome to Pandamania spaces. Let's get you all setup to join a meeting. "
               }
               <a
                 href={CREATE_ROOM_DOC_URL}
@@ -45,7 +45,7 @@ function ErrorPage({ error }) {
               >
                 Click here
               </a>{" "}
-              for next steps
+              to join as guest
             </Text>
           </Flex>
         ) : (

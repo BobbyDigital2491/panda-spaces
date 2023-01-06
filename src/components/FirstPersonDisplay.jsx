@@ -31,7 +31,7 @@ export const FirstPersonDisplay = React.memo(() => {
         }}
       >
         <Text color="white" variant="h4" css={{ "@md": { fontSize: "$md" } }}>
-          Welcome!
+          Welcome to Pandamania Spaces!
         </Text>
         <Text
           color="white"
